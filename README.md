@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Talk Resources
+
+This is a sample repository to help store talk resources.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
