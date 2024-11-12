@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-logo {
@@ -14,13 +16,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-headline {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.App-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.App-content.hidden {
+  display: none;
+}
+
+.App-content.fade-in {
+  opacity: 0;
+  animation: fadeIn 4s forwards;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.Section h2 {
+  display: flex;
+}
+
+.Section .arrow {
+  display: flex;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.Section .arrow.right {
+  transform: rotate(0deg);
+}
+
+.Section .arrow.down {
+  transform: rotate(90deg);
 }
