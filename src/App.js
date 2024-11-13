@@ -34,34 +34,39 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="App-headline">Sample Headline</h1>
-        <button className="App-button" onClick={handleClick}>
-          Show Content
-        </button>
+        <h3 className="App-headline"><a href="https://ignite.microsoft.com/en-US/sessions/BRK306?source=sessions">BRK 306</a> Enhance IT Pro and Developer productivity with new improvements to advanced tools on Windows - Resources</h3>
+        <button className="App-button" onClick={handleClick}>Learn more links</button>
       </header>
       <div
         id="content"
         className={`App-content ${showContent ? 'fade-in' : 'hidden'}`}
       >
-        <Section title="Section 1">
+        <Section title="Windows' developer focused features">
           <ul>
-            <li>Item 1.1</li>
-            <li>Item 1.2</li>
-            <li>Item 1.3</li>
+            <li><a href="www.bing.com">Dev Drive</a></li>
+            <li><a href="www.bing.com">Sudo</a></li>
+            <li><a href="www.bing.com">Windows App</a></li>
           </ul>
         </Section>
-        <Section title="Section 2">
+        <Section title="PowerToys">
           <ul>
             <li>Item 2.1</li>
             <li>Item 2.2</li>
             <li>Item 2.3</li>
           </ul>
         </Section>
-        <Section title="Section 3">
+        <Section title="WSL & Terminal">
           <ul>
             <li>Item 3.1</li>
             <li>Item 3.2</li>
             <li>Item 3.3</li>
+          </ul>
+        </Section>
+        <Section title="WinGet">
+          <ul>
+            <li><a href="www.bing.com">Dev Drive</a></li>
+            <li><a href="www.bing.com">Sudo</a></li>
+            <li><a href="www.bing.com">Windows App</a></li>
           </ul>
         </Section>
       </div>

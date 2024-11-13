@@ -1,5 +1,7 @@
 # Talk Resources
 
+[!Splash Image](./image.png)
+
 This is a sample repository to help store talk resources.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
