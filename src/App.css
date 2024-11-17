@@ -82,6 +82,8 @@ a {
 
 .Section h2 {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Section .arrow {
@@ -96,4 +98,8 @@ a {
 
 .Section .arrow.down {
   transform: rotate(90deg);
+}
+
+.Section ul {
+  list-style: none;
 }
