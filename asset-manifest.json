@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/talk-resources/static/css/main.cbc39071.css",
-    "main.js": "/talk-resources/static/js/main.26fd6148.js",
+    "main.css": "/talk-resources/static/css/main.8ea92072.css",
+    "main.js": "/talk-resources/static/js/main.8499e91f.js",
     "static/js/453.08dfce27.chunk.js": "/talk-resources/static/js/453.08dfce27.chunk.js",
     "index.html": "/talk-resources/index.html",
-    "main.cbc39071.css.map": "/talk-resources/static/css/main.cbc39071.css.map",
-    "main.26fd6148.js.map": "/talk-resources/static/js/main.26fd6148.js.map",
+    "main.8ea92072.css.map": "/talk-resources/static/css/main.8ea92072.css.map",
+    "main.8499e91f.js.map": "/talk-resources/static/js/main.8499e91f.js.map",
     "453.08dfce27.chunk.js.map": "/talk-resources/static/js/453.08dfce27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbc39071.css",
-    "static/js/main.26fd6148.js"
+    "static/css/main.8ea92072.css",
+    "static/js/main.8499e91f.js"
   ]
 }
